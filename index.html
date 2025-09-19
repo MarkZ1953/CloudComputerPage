@@ -262,6 +262,58 @@
                 privada y pública, permitiendo a las entidades estatales adquirir estos servicios de manera ágil y
                 transparente.</p>
         </section>
+
+        <section id="vercel" class="vercel-section">
+            <h2><i class="fas fa-cloud"></i> Vercel Platform</h2>
+            <p>Vercel es una plataforma de frontend cloud diseñada para ayudar a los desarrolladores a crear,
+                previsualizar y desplegar sitios web y aplicaciones de manera eficiente. Está optimizada para frameworks
+                de JavaScript como Next.js, Gatsby, Nuxt.js y otros.</p>
+
+
+            <div class="vercel-content">
+                <div class="card">
+                    <h3><i class="fas fa-rocket"></i> Getting Started with Vercel</h3>
+                    <p>Sigue estos pasos para comenzar a usar Vercel:</p>
+
+                    <h4>1. Instalar Vercel CLI</h4>
+                    <div class="code-block">
+                        npm i -g vercel
+                    </div>
+
+                    <h4>2. Iniciar sesión</h4>
+                    <div class="code-block">
+                        vercel login
+                    </div>
+
+                    <h4>3. Desplegar un proyecto</h4>
+                    <p>Navega a tu proyecto y ejecuta:</p>
+                    <div class="code-block">
+                        vercel
+                    </div>
+
+                    <h4>4. Alternativa: Conectar repositorio Git</h4>
+                    <p>Conecta tu repositorio de GitHub, GitLab o Bitbucket para despliegues automáticos con cada push.
+                    </p>
+
+                    <h4>5. Configuración personalizada</h4>
+                    <p>Crea un archivo <code>vercel.json</code> para personalizar la configuración:</p>
+                    <div class="code-block">
+                        {
+                        "version": 2,
+                        "builds": [
+                        { "src": "*.js", "use": "@vercel/node" }
+                        ],
+                        "routes": [
+                        { "src": "/(.*)", "dest": "/index.js" }
+                        ]
+                        }
+                    </div>
+
+                    <p>Consulta la <a href="https://vercel.com/docs" target="_blank"
+                            style="color: #00c2cb;">documentación oficial de Vercel</a> para más detalles.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
