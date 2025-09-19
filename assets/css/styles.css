@@ -221,6 +221,32 @@
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   }
 
+  .code-block {
+      background: linear-gradient(90deg, #232526 0%, #414345 100%);
+      color: #e3e3e3;
+      font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+      font-size: 1rem;
+      border-radius: 8px;
+      padding: 1em 1.2em;
+      margin: 0.7em 0 1.2em 0;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      overflow-x: auto;
+      border-left: 4px solid #00c2cb;
+      transition: box-shadow 0.2s;
+  }
+
+  .code-block:hover {
+      box-shadow: 0 4px 24px rgba(0, 194, 203, 0.12);
+  }
+
+  .code-block code {
+      background: none;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      padding: 0;
+  }
+
   /* Responsive */
   @media (max-width: 768px) {
       .nav-container {
